@@ -8,8 +8,8 @@
 
 import SpriteKit
 
-class GameScene: SKScene, SKPhysicsContactDelegate {
-  
+class GameScene: SKScene, SKPhysicsContactDelegate
+{
   // MARK: - Instance Variables
   
   let playerSpeed: CGFloat = 150.0
