@@ -41,6 +41,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate
         }
     }
     
+    goal = self.childNodeWithName("goal") as? SKSpriteNode
+    
     // Setup initial camera position
     updateCamera()
   }
